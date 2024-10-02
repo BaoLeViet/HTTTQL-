@@ -44,7 +44,7 @@
           <mxGeometry x="146.25" y="340" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lA_nZtJsFJba0ltW-i-2-15" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Các loại nước&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="146.25" y="420" width="92.5" height="50" as="geometry" />
+          <mxGeometry x="136.25" y="530" width="92.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lA_nZtJsFJba0ltW-i-2-16" value="Database thô trạm" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="330" y="200" width="60" height="60" as="geometry" />
@@ -58,7 +58,7 @@
             <mxPoint x="330" y="192.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lA_nZtJsFJba0ltW-i-2-19" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Trạm&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="lA_nZtJsFJba0ltW-i-2-19" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Trạm&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="147.5" y="290" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lA_nZtJsFJba0ltW-i-2-22" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lA_nZtJsFJba0ltW-i-2-16" target="lA_nZtJsFJba0ltW-i-2-19">
@@ -90,13 +90,31 @@
             <mxPoint x="390" y="325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lA_nZtJsFJba0ltW-i-2-28" value="Database bình nước" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="440" y="420" width="60" height="60" as="geometry" />
+        <mxCell id="lA_nZtJsFJba0ltW-i-2-28" value="Database loại nước" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="430" y="530" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lA_nZtJsFJba0ltW-i-2-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lA_nZtJsFJba0ltW-i-2-28">
+        <mxCell id="lA_nZtJsFJba0ltW-i-2-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.033;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="lA_nZtJsFJba0ltW-i-2-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="241" y="444.5" as="sourcePoint" />
-            <mxPoint x="450" y="450" as="targetPoint" />
+            <mxPoint x="231" y="554.5" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lA_nZtJsFJba0ltW-i-2-31" value="Nơi rửa bình" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="420" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lA_nZtJsFJba0ltW-i-2-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lA_nZtJsFJba0ltW-i-2-26" target="lA_nZtJsFJba0ltW-i-2-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="420" as="sourcePoint" />
+            <mxPoint x="430" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lA_nZtJsFJba0ltW-i-2-33" value="Thùng chứa nước" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="420" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lA_nZtJsFJba0ltW-i-2-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lA_nZtJsFJba0ltW-i-2-31" target="lA_nZtJsFJba0ltW-i-2-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="410" as="sourcePoint" />
+            <mxPoint x="470" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
